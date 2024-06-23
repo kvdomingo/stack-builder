@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "stack-builder"
+version = "0.1.0"
+description = ""
+authors = ["Kenneth V. Domingo <hello@kvd.studio>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+click = "^8.1.7"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
